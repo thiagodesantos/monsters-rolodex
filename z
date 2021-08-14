@@ -10,6 +10,7 @@ core.fscache=true
 core.symlinks=false
 pull.rebase=false
 credential.helper=manager-core
+credential.username=thiagodesantos
 init.defaultbranch=master
 filter.lfs.clean=git-lfs clean -- %f
 filter.lfs.smudge=git-lfs smudge -- %f
@@ -23,6 +24,6 @@ core.symlinks=false
 core.ignorecase=true
 remote.origin.url=https://github.com/thiagodesantos/monsters-rolodex.git
 remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
-user.name=thiagodesantos
+user.deploy=thiagodesantos
 user.email=thiagodesantos23@gmail.com
-credential.username=thiagodesantos
+
